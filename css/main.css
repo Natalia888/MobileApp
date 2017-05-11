@@ -90,7 +90,31 @@ body {
 		-o-transition: all .25s;
 		transition:  all .25s;
 	}
-	
+	.maian_mnu a:hover{
+		background-color: #a22000;
+	}
+	.maian_mnu ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		float: left;
+		text-transform: uppercase;
+	}
+	.top_contacts{
+		line-height: 53px; 
+		float: right;
+		font-size: 32px;
+		padding: 0 15px;
+		background-color: #9b2d30;
+
+	}
+	.maian_mnu ul li {
+		display: inline-block;
+		color: #a22000;
+	}
+	.maian_mnu ul{
+		z-index: 12;
+	}
 	h1{
 		color: #fff;
 		text-transform: uppercase;
